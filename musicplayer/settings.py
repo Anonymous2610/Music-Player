@@ -150,10 +150,10 @@ MEDIA_URL = '/media/'
 
 # STATIC_ROOT is the folder where static files will be stored after using manage.py collectstatic
 # Only used when deployment (not used during development)
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
